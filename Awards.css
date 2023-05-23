@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 86, 92);
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(15,100px);
+    grid-gap: 80px;
+    color: #fff;
+}
+.box{
+    background-color: rgb(14, 7, 24);
+    padding-bottom: 40px;
+    position: relative;
+    top: 70px;
+}
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(boy1.png);
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    background-image: url(boy2.png);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+.container .one{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+}
+.container .two{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    text-align: center;
+}
+.container ul li{
+    list-style-type: none;
+}
+.body{
+    text-align: justify;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: -13%;
+}
+button{
+    width: 150px;
+    padding: 10px 0;
+    margin-left: 1%;
+    margin-top: 6%; 
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+button a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+span{
+    background: aliceblue;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+}
+button:hover span{
+    width: 100%;
+}

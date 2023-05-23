@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+} 
+h1{
+    width:80%;
+    color:aliceblue;
+    font-size: 60px;
+    font-style: normal;
+    margin-left: 5%;
+}
+.son{
+    color:aliceblue;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 4%;
+    margin-top: 20%; 
+    float: left;
+    text-align: justify;
+}
+.daughter{
+    width: 100%;
+    height: 100vh;
+    background-image:url("babe.png");
+    background-size: cover;
+    background-position: center;
+}
+button{
+    width: 150px;
+    padding: 10px 0;
+    margin-left: 1%;
+    margin-top: 16%; 
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+span{
+    background: aliceblue;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover {
+    border: none;
+}
+
